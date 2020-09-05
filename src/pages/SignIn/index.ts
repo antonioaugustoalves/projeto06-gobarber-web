@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Content, Background } from './styles';
 import { FiLogIn } from 'react-icons/fi';
 import logoImg from '../../assets/logo.svg';
-import Button from '../../components/Button';
-import Input from '../../components/Input';
+//import Button from '../../components/Button';
+//import Input from '../../components/Input';
 
 
 const SignIn: React.FC = () => (
@@ -12,9 +12,9 @@ const SignIn: React.FC = () => (
         <img src={logoImg} alt="Go Barber"/>
         <form>
             <h1>Faça o seu logon:</h1>
-            <Input name="email" placeholder="Digite o seu E-mail:"/>
-            <Input name="password" type="password" placeholder="Digite sua senha:"/>
-            <Button type="submit">Logar-se</Button>
+            <input name="email" placeholder="Digite o seu E-mail:"/>
+            <input name="password" type="password" placeholder="Digite sua senha:"/>
+            <button type="submit">Logar-se</Button>
             <a href="forgot">Esqueci a senha</a>
         </form>
         <a href="">
